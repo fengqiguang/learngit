@@ -1,6 +1,19 @@
 # 问卷调查接口说明
 测试域名：  http://127.0.0.1/poly-survey-web/
 
+说明：返回参数统一格式
+code    	  |int      |相应状态码（0表示成功）
+msg  		  |String   |错误信息
+times 		  |int      |时间戳
+data 		  |Object   |返回内容
+{
+	"code": 0,
+	"msg": "",
+	"times": 1525404202761,
+	"data": ""
+}
+
+
 
 ### 1 获取问卷接口 POST  /survey/getSurveyTemplate
 #### 请求参数
