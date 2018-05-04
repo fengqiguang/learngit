@@ -2,6 +2,7 @@
 测试域名：  http://127.0.0.1/poly-survey-web/
 
 说明：返回参数统一格式
+---             |---      |---      |---
 code    	  |int      |相应状态码（0表示成功）
 msg  		  |String   |错误信息
 times 		  |int      |时间戳
